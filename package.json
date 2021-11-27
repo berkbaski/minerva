@@ -1,0 +1,36 @@
+{
+  "name": "@berkbaski/minerva",
+  "version": "1.0.0",
+  "description": "No commit if you haven't checked the CheckList",
+  "main": "bin/minerva",
+  "bin": {
+    "minerva": "bin/minerva"
+  },
+  "scripts": {
+    "watch": "rm -rf dist && tsc -w",
+    "build": "rm -rf dist && tsc"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Berk Baski <baskiberk41@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "dist/"
+  ],
+  "dependencies": {
+    "enquirer": "^2.3.6",
+    "esm": "^3.2.25",
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "@types/minimist": "^1.2.2",
+    "@types/node": "^16.11.10",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "prettier": "^2.5.0",
+    "typescript": "^4.5.2"
+  }
+}

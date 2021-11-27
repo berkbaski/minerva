@@ -1,0 +1,6 @@
+dist
+node_modules
+*.MD
+.eslintrc.json
+package.json
+*.lock
